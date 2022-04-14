@@ -6,7 +6,7 @@ API_ENDPOINT = "http://e855-115-119-250-30.ngrok.io/train"
 
 # data to be sent to api
 data = {
-	"url": "https://github.com/shivamordanny/mlflow-example",
+	"url": "https://github.com/manishzed/mlops_mlflow_v1",
 	"branch_name": "master",
 	"algo_type": "Regression"
 }

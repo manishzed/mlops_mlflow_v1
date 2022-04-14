@@ -2,7 +2,7 @@
 import requests
 
 # defining the api-endpoint
-API_ENDPOINT = "http://e855-115-119-250-30.ngrok.io/train"
+API_ENDPOINT = "https://1f80-2405-201-a404-981b-d80e-d27a-1b82-5ec4.in.ngrok.io/train"
 
 # data to be sent to api
 data = {
@@ -17,3 +17,4 @@ r = requests.post(url = API_ENDPOINT, data = data)
 # extracting response text
 pastebin_url = r.text
 print("The pastebin URL is:%s"%pastebin_url)
+file:///C:/Users/Asus/Desktop/project/mlflow-example-master/mlruns/0/eb74d8bd1f774a60bbb5a8860be364e9/artifacts/model
