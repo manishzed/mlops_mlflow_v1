@@ -17,4 +17,3 @@ r = requests.post(url = API_ENDPOINT, data = data)
 # extracting response text
 pastebin_url = r.text
 print("The pastebin URL is:%s"%pastebin_url)
-file:///C:/Users/Asus/Desktop/project/mlflow-example-master/mlruns/0/eb74d8bd1f774a60bbb5a8860be364e9/artifacts/model
